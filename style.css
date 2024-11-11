@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+/*
+h1 {
+  color: blue;
+  background-color: black;
+}
+  
+body {
+  background-color: darkgray;
+}
+*/
+
+#main-title {
+  color: lightpink;
+}
+
+h1 {
+  color: aquamarine;
+}
+
+h1 {
+  color: brown;
+}
+
+/*
+
+Precedencia en CSS (en que orden se aplican los estilos)
+
+4 - por etiqueta
+3 - por clase
+2 - por id
+1 - por estilos en linea
+
+*/
+
+#main-title {
+  display: block;
+  /* block, inline, flex, grip, none */
+}
+
+#students {
+  background-color: brown;
+}
+
+#places {
+  background-color: lightcoral;
+}
+
+#hobbies {
+  background-color: #ebc2be;
+}
+
+.page-section {
+  color: rgb(47, 47, 47);
+  font-family: Arial;
+  text-shadow: 1px 1px 5px lightgray;
+
+  text-align: center;
+
+  /* border-style: solid;
+  border-width: 5px;
+  border-color: darkred; */
+
+  border: solid 5px darkred;
+
+  /* padding-left: 10px;
+  padding-top: 50px;
+  padding-bottom: 30px; */
+
+  /* padding: 50px 0 30px 10px;  top, right, bottom, left */
+  padding: 30px;
+
+  /* margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 0; */
+
+  margin: 10px 20px; /* posY posX*/
+
+  border-radius: 10px;
+}
+
+#sub-title {
+  text-decoration: underline;
+  font-family: "Doto", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color: darkred;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  /* list-style-position: inside; */
+  padding-right: 20px;
+}
+
+/* h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-bottom: 0;
+} */
+
+body {
+  background-image: url("./bg.avif");
+  background-position: center;
+  background-size: cover;
+}
